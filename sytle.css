@@ -1,0 +1,92 @@
+body { background-color:black;
+width: 1350px;
+margin: auto; }
+
+#nav-bar
+{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -37rem;  
+    margin-left: 1rem;
+position: fixed;  
+ }
+#nav-bar a
+{
+    padding-right: 1em;
+    padding-left: 1.2em;
+    margin-top: -7rem;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 35px;
+    color: #F2EA1F;
+}
+
+
+    .main
+
+    { padding: 100px;
+    color: white;
+    text-align: center;
+    font-family:'Raleway',sans-serif ;
+}
+    #logo
+
+    {
+        margin-top: -9rem;
+        width: 301px;
+        height: 169px;
+    text-align: left;  }
+
+    #ftr
+
+    { 
+        color:yellow ; 
+
+         font-size: 90px;
+        
+    }
+    #rouge
+    { color: red;
+        font-size: 75px;
+
+    }
+    #blan{
+        font-size: 74px;
+    }
+    #article{ font-size: 57px;}
+    .footer
+    
+    { display: flex;
+        padding: 10px;
+    margin-left: 5px;
+    
+    }
+    .footer p
+    { 
+        color: white;
+         font-family: 'Raleway',sans-serif;
+         margin-left: 7em;
+font-size: 44px;
+text-align: center;
+
+    }
+    #icon{  ;}
+    { display: flex;
+ ;}
+    footer a
+     { font-size: 50px;
+    margin-top: 0.7em;
+    
+;}
+
+    #face{ margin-left: 7%;
+    color:tomato;}
+    #insta{ margin-left: 1%;
+    color: #f78;}
+    #youtube{ margin-left: 1%;
+    color: #4c6ef5;}
+    #rt
+    { margin-left: left;}
+    
+        
