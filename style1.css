@@ -1,0 +1,89 @@
+#bloc-page
+{
+    background-color: black;
+    width: 1350px;
+    margin: auto;
+}
+#headring
+{
+    width: 100%;
+    height: 50%;
+}
+#logo
+{
+    margin-top: -9rem;
+    width: 301px;
+    height: 169px;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -32rem; 
+    position: fixed;
+    
+}
+.navbar a
+{
+    padding-right: 1em;
+    padding-left: 1.2em;
+    margin-top: -7rem;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #F2EA1F;
+}
+.main
+{
+    display: flex;
+    flex-direction: column ;
+}
+#titre
+{
+    margin-top: 3rem;
+    color:#F2EA1F ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+.main p
+{
+    color:#FFF ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 84px;
+    text-align: center;  
+}
+.footer
+{
+    display: flex;
+    margin-top: 15%;
+    
+}
+.footer p
+{
+    color: #C4C4C4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    margin-left: 7em;
+}
+.footer a
+{
+    font-size: 50px;
+    margin-top: 0.7em;
+}
+#fb
+{
+    margin-left: 7%;
+    color: #FD7E14;
+}
+#insta
+{
+    color: #F783AC;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#youtube
+{
+    color: #4C6EF5;
+}
