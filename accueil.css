@@ -1,8 +1,13 @@
+
 #bloc-page
 {
     background-color: black;
     width: 1350px;
     margin: auto;
+}
+#bloc-page a:hover
+{
+    color: #fff;
 }
 #logo
 {
@@ -35,24 +40,26 @@
     
     margin-top: -8rem;
     background-color: #A91D1D;
-    border-radius: 111px;
-    width: 256px;
-    height: 69px;
+    border-radius: 15px;
+    width: 300px;
+    height: 88px;
 }
 #call-to-action a
 {
-    font-size: 1.2em;
     font-family: 'Raleway', sans-serif;
     font-size: 27px;
     color: rgb(255, 255, 255);
 }
-#call-to-action p
+#call-to-action a:hover
 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 50%;
+}
+#res-call-to-action
+{
+    display: none;
 }
 #titre
 {
-
     margin-top: 4rem;
     color: #fff ;
     font-family: 'Raleway', sans-serif;
@@ -213,3 +220,93 @@
 {
     color: #4C6EF5;
 }
+@media only screen and (max-width: 1200px)
+{
+    #bloc-page
+    {
+        width: 1000px;
+        margin: auto;  
+    }
+    #logo
+    {
+        width: 200px;
+        height: 150px;
+    }
+    .navbar
+    {
+        margin-top: -19rem;
+    }
+    .navbar a
+    {
+        font-size: 2em;
+        padding-right: 1em;
+    }
+    
+    #headring
+    {
+        width: 1000px;
+    }
+    #titre
+    {
+        margin-top: -5px;
+        font-size: 40px;
+    }
+    #MISSION
+    {
+        margin-top: 1em;
+        font-size: 5em;
+    }
+    #call-to-action
+    {
+       display: none;
+    }
+    #res-call-to-action
+    {
+   
+    margin-left: 22rem;
+    display: inline;
+    background-color: #A91D1D;
+    border-radius: 15px;
+    width: 300px;
+    height: 88px;
+    }
+    #res-call-to-action a
+    {
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    text-decoration: none;
+    color: #fff;
+    }
+    .section1
+    {
+    display: flex;
+    flex-direction: column;
+    }
+    .section1 img
+    {
+    width: 100%;
+    }
+    .section1 p
+    {
+    font-size: 4em;
+    }
+    .section2
+    {
+    display: flex;
+    flex-direction: column;
+    }
+    .section2 img
+    {
+    width: 65rem;
+    }
+    .section3
+    {
+    display: flex;
+    flex-direction: column;
+    }
+    .footer p
+    {
+        font-size: 2em;
+    }
+}
+
