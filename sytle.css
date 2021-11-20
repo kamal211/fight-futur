@@ -7,17 +7,12 @@ margin: auto; }
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: -37rem;  
-    margin-left: 1rem;
-position: fixed;  
+    margin-top: -37rem;    
  }
 #nav-bar a
-{
-    padding-right: 1em;
-    padding-left: 1.2em;
-    margin-top: -7rem;
+{ margin-top: -7rem;
     text-decoration: none;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 35px;
     color: #F2EA1F;
 }
@@ -25,7 +20,9 @@ position: fixed;
 
     .main
 
-    { padding: 100px;
+    {
+         padding: 100px;
+         margin-top: 25rem;
     color: white;
     text-align: center;
     font-family:'Raleway',sans-serif ;
@@ -56,37 +53,35 @@ position: fixed;
     }
     #article{ font-size: 57px;}
     .footer
+{
+    display: flex;
     
-    { display: flex;
-        padding: 10px;
-    margin-left: 5px;
-    
-    }
-    .footer p
-    { 
-        color: white;
-         font-family: 'Raleway',sans-serif;
-         margin-left: 7em;
-font-size: 44px;
-text-align: center;
-
-    }
-    #icon{  ;}
-    { display: flex;
- ;}
-    footer a
-     { font-size: 50px;
+}
+.footer p
+{
+    color: #C4C4C4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    margin-left: 7em;
+}
+.footer a
+{
+    font-size: 50px;
     margin-top: 0.7em;
-    
-;}
-
-    #face{ margin-left: 7%;
-    color:tomato;}
-    #insta{ margin-left: 1%;
-    color: #f78;}
-    #youtube{ margin-left: 1%;
-    color: #4c6ef5;}
-    #rt
-    { margin-left: left;}
-    
+}
+#fb
+{
+    margin-left: 7%;
+    color: #FD7E14;
+}
+#insta
+{
+    color: #F783AC;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#youtube
+{
+    color: #4C6EF5;
+}
         

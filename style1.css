@@ -21,21 +21,18 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-top: -32rem; 
-    position: fixed;
+    
     
 }
 .navbar a
 {
-    padding-right: 1em;
-    padding-left: 1.2em;
+    padding: 15px 60px;
     margin-top: -7rem;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
-    color: red;
-    background-color: #FFF;
-    opacity: 60%;
-    border-radius: 10px;
+    color: #F2EA1F;
+   
 }
 .main
 {
@@ -44,7 +41,7 @@
 }
 #titre
 {
-    margin-top: 3rem;
+    margin-top: 32rem;
     color:#F2EA1F ;
     font-family: 'Raleway', sans-serif;
     font-size: 70px;
