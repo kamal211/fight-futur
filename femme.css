@@ -87,3 +87,49 @@
 {
     color: #4C6EF5;
 }
+@media only screen and (max-width: 1200px)
+{
+    #bloc-page
+    {
+        width: 800px;
+        margin: auto;  
+    }
+    #logo
+    {
+        width: 200px;
+        height: 150px;
+    }
+    .navbar
+    {
+        margin-top: -16rem;
+    }
+    .navbar a
+    {
+        font-size: 25px;
+        margin-left: -1em;
+        margin-right: -2em;
+    }
+    #titre
+    {
+        margin-top: 5em;
+        font-size: 52px;
+    }
+    .main p
+    {
+        font-size: 3em;
+    }
+    .footer p
+    {
+        font-size: 30px;
+        margin-left: 5em;
+    }
+    .footer a
+    {
+        font-size: 2em;
+        
+    }
+    #fb
+    {
+        margin-left: 1em;
+    }
+}
