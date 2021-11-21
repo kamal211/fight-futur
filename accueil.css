@@ -224,8 +224,12 @@
 {
     #bloc-page
     {
-        width: 1000px;
+        width: 800px;
         margin: auto;  
+    }
+    #headring
+    {
+        width: 800px;
     }
     #logo
     {
@@ -234,27 +238,16 @@
     }
     .navbar
     {
-        margin-top: -19rem;
+        margin-top: -14rem;
     }
     .navbar a
     {
         font-size: 2em;
-        padding-right: 1em;
-    }
-    
-    #headring
-    {
-        width: 1000px;
     }
     #titre
     {
-        margin-top: -5px;
-        font-size: 40px;
-    }
-    #MISSION
-    {
-        margin-top: 1em;
-        font-size: 5em;
+        margin-top: -25px;
+        font-size: 30px;
     }
     #call-to-action
     {
@@ -262,8 +255,7 @@
     }
     #res-call-to-action
     {
-   
-    margin-left: 22rem;
+    margin-left: 15rem;
     display: inline;
     background-color: #A91D1D;
     border-radius: 15px;
@@ -276,6 +268,11 @@
     font-size: 27px;
     text-decoration: none;
     color: #fff;
+    }
+    #MISSION
+    {
+        margin-top: 1em;
+        font-size: 5em;
     }
     .section1
     {
@@ -297,16 +294,35 @@
     }
     .section2 img
     {
-    width: 65rem;
+    width: 50rem;
     }
     .section3
     {
     display: flex;
     flex-direction: column;
+    padding-top: 0em;
+    }
+    .OFFRE2
+    {
+        margin-top: 3em;
+    }
+    .OFFRE3
+    {
+        margin-top: 3em;
     }
     .footer p
     {
+        font-size: 30px;
+        margin-left: 5em;
+    }
+    .footer a
+    {
         font-size: 2em;
+        
+    }
+    #fb
+    {
+        margin-left: 1em;
     }
 }
 
