@@ -424,4 +424,101 @@
 
 
 }
+@media only screen and (max-width: 300px)
+{
+    #bloc-page
+    {
+        width: 200px;
+        margin: auto;  
+    }
+    #headring
+    {
+        width: 200px;
+        height: 125px;
+    }
+    #logo
+    {
+        width: 50px;
+        height: 37px;
+    }
+    .navbar
+    {
+        margin-top: 1rem;
+    }
+    .navbar a
+    {
+        margin-top: -135px;
+        font-size: 7px;
+        margin-right: 3px;
+    }
+    #titre
+    {
+        margin-top: -100px;
+        font-size: 10px;
+    }
+    #res-call-to-action
+    {
+    margin-left: 4rem;
+    width: 75px;
+    height: 22px;
+    }
+    #res-call-to-action a
+    {
+    font-size: 7px;
+    }
+    #MISSION
+    {
+        font-size: 1em;
+    }
+    .section1 p
+    {
+        font-size: 1em;
+    }
+    #COACH
+    {
+        font-size: 1em;
+    }
+    .section2 img
+    {
+        width: 13rem;
+    }
+    #OFFRE
+    {
+        font-size: 1.5em;
+    }
+    .OFFRE1 i
+    {
+        font-size: 42px;
+    }
+    .OFFRE1 p
+    {
+        font-size: 17px;
+    }
+    .OFFRE2 i
+    {
+        font-size: 42px;
+    }
+    .OFFRE2 p
+    {
+        font-size: 17px;
+    }
+    .OFFRE3 i
+    {
+        font-size: 42px;
+    }
+    .OFFRE3 p
+    {
+        font-size: 17px;
+    }
+    .footer p
+    {
+        font-size: 7px;
+    }
+    .footer a
+    {
+        font-size: 0.5em;
+        
+    }
+}
+
 
