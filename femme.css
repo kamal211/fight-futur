@@ -116,11 +116,11 @@
     #titre
     {
         margin-top: 5em;
-        font-size: 63px;
+        font-size: 52px;
     }
     .main p
     {
-        font-size: 60px;
+        font-size: 40px;
     }
     .footer p
     {
@@ -135,4 +135,96 @@
     {
         margin-left: 1em;
     }
+}
+@media only screen and (max-width: 600px)
+{
+    #bloc-page
+    {
+        width: 400px;
+        margin: auto;  
+    }
+    #logo
+    {
+        width: 100px;
+        height: 75px;
+    }
+    .navbar
+    {
+        margin-top: -4rem;
+    }
+    .navbar a
+    {
+        font-size: 12px;
+        margin-right: 12px;
+    }
+  
+    #titre
+    {
+        margin-top: 3em;
+        font-size: 26px;
+    }
+    .main p
+    {
+        font-size: 20px;
+    }
+    .footer p
+    {
+        font-size: 15px;
+        margin-left: 2.5em;
+    }
+    .footer a
+    {
+        font-size: 1em;
+    }
+    #fb
+    {
+        margin-left: 1em;
+    }
+    
+@media only screen and (max-width: 300px)
+{
+    #bloc-page
+    {
+        width: 200px;
+        margin: auto;  
+    }
+    #logo
+    {
+        width: 50px;
+        height: 35px;
+    }
+    .navbar
+    {
+        margin-top: 3rem;
+    }
+    .navbar a
+    {
+        margin-top: -133px;
+        font-size: 6px;
+        margin-right: 6px;
+    }
+  
+    #titre
+    {
+        margin-top: -40px;
+        font-size: 13px;
+    }
+    .main p
+    {
+        font-size: 10px;
+    }
+    .footer p
+    {
+        font-size: 8px;
+        margin-left: 1em;
+    }
+    .footer a
+    {
+        font-size: 1em;
+    }
+    #fb
+    {
+        margin-left: 1em;
+    }
+}
 }
