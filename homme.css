@@ -1,6 +1,10 @@
-body { background-color:black;
+#bloc-page { background-color:black;
 width: 1350px;
 margin: auto; }
+#bloc a:hover
+{
+    color: #fff;
+}
 
 #nav-bar
 { 
@@ -16,7 +20,6 @@ margin: auto; }
     font-size: 35px;
     color: #F2EA1F;
 }
-
 
     .main
 
@@ -84,4 +87,61 @@ margin: auto; }
 {
     color: #4C6EF5;
 }
+@media only screen and (max-width: 1200px)
+{
+    #bloc-page
+    {
+        width: 800px;
+        margin: auto;
+    }
+    #sal
+    {
+        width: 800px;
+    }
+    #logo
+    {
+        width: 200px;
+        height: 150px;
+    }
+    #nav-bar
+    {
+        margin-top: -17rem;
+    }
+    #nav-bar a
+    {
+        font-size: 25px;
+        margin-right: 25px;
+    }
+    #ftr
+    {
+        margin-top: -3em;
+        font-size: 63px;
+    }
+    #blan
+    {
+        margin-top: -1em;
+        font-size: 45px;
+    }
+    #rouge
+    {
+        font-size: 45px;
+    }
+    #article
+    {
+        font-size: 39px;
+    }
+    .footer p
+    {
+        font-size: 30px;
+        margin-left: 5em;
+    }
+    .footer a
+    {
+        font-size: 2em;
         
+    }
+    #fb
+    {
+        margin-left: 1em;
+    }
+}    

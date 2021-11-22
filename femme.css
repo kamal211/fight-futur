@@ -4,6 +4,10 @@
     width: 1350px;
     margin: auto;
 }
+#bloc-page a:hover
+{
+    color: #fff;
+}
 #headring
 {
     width: 100%;
@@ -26,7 +30,7 @@
 }
 .navbar a
 {
-    padding: 15px 60px;
+    margin-right: 45px;
     margin-top: -7rem;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -106,17 +110,17 @@
     .navbar a
     {
         font-size: 25px;
-        margin-left: -1em;
-        margin-right: -2em;
+        margin-right: 25px;
     }
+  
     #titre
     {
         margin-top: 5em;
-        font-size: 52px;
+        font-size: 63px;
     }
     .main p
     {
-        font-size: 3em;
+        font-size: 60px;
     }
     .footer p
     {
@@ -126,7 +130,6 @@
     .footer a
     {
         font-size: 2em;
-        
     }
     #fb
     {

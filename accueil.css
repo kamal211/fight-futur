@@ -230,6 +230,7 @@
     #headring
     {
         width: 800px;
+        height: 500px;
     }
     #logo
     {
@@ -238,16 +239,17 @@
     }
     .navbar
     {
-        margin-top: -14rem;
+        margin-top: -22rem;
     }
     .navbar a
     {
-        font-size: 2em;
+        font-size: 25px;
+        margin-right: 25px;
     }
     #titre
     {
-        margin-top: -25px;
-        font-size: 30px;
+        margin-top: 15px;
+        font-size: 40px;
     }
     #call-to-action
     {
