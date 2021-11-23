@@ -132,7 +132,7 @@
     }
     .navbar
     {
-        margin-top: -17rem;
+        margin-top: -16rem;
     }
     .navbar a
     {
@@ -199,11 +199,32 @@
     .navbar a
     {
         font-size: 13px;
+<<<<<<< HEAD
+        margin-right: 12px;
+=======
         margin-right: 13px;
+>>>>>>> bbb1ccc8ff401eb6c0a726f338ad7a7e99cf23d3
     
     }
     .article1 h1
     {
+<<<<<<< HEAD
+        margin-top: 3em;
+        font-size: 20px;
+    }
+    .article1 p
+    {
+        font-size: 22px;
+    }
+    .article2 h1
+    {
+        font-size: 35px;
+    }
+    .article2 img
+    {
+        margin-left: 4em;
+        width: 260px;
+=======
         margin-top: 2em;
         font-size: 32px;
     }
@@ -219,6 +240,7 @@
     {
         margin-left: 5em;
         width: 250px;
+>>>>>>> bbb1ccc8ff401eb6c0a726f338ad7a7e99cf23d3
     }
     .article2 p
     {
@@ -227,6 +249,9 @@
     .footer p
     {
         font-size: 15px;
+<<<<<<< HEAD
+        margin-left: 2.5em;
+=======
         margin-left: 2em;
     }
     .footer a
@@ -293,6 +318,7 @@
     {
         font-size: 7px;
         margin-left: 1em;
+>>>>>>> bbb1ccc8ff401eb6c0a726f338ad7a7e99cf23d3
     }
     .footer a
     {
